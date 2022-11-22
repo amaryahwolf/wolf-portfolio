@@ -1,0 +1,160 @@
+:root {
+--light: #DDE0BD;
+--yellow: #D0D1AC;
+--pink: #B6A39E;
+--gray: #948B89;
+--dark: #726375;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--light);
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row; 
+    justify-content: space-between;
+    padding: 20px;
+    background-color: var(--pink);
+    color: white
+}
+
+h1 {
+    display: inline-block;
+    font-size:;
+    background-color: var(--dark);
+    padding: 10px 60px;
+}
+
+h2 {
+    
+}
+
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+
+}
+
+nav li {
+    display: inline-block;
+    padding: 5px;
+}
+
+nav a {
+    color: var(--dark);
+}
+
+/* .content {
+    display: flex;
+} */
+
+.img-sky {
+    width: 100%;
+    height: auto;
+}
+
+.about-me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* height: 300px; */
+    padding: 70px;
+    margin-bottom: 20px;
+}
+
+.about-me h2 {
+   width: 25%;
+   text-align: center
+}
+
+.about-me p {
+    width: 75%
+}
+
+.work {
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 70px;
+    margin-bottom: 20px;
+}
+
+.work h2 {
+    width: 25%;
+    text-align: center
+}
+
+.work img {
+    width: 75%
+}
+
+.contact-me {
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 70px;
+    margin-bottom: 20px;
+}
+
+.contact-me h2 {
+    width: 25%;
+    text-align: center
+}
+
+.contact-me ul {
+    width: 75%;
+    list-style-type: none;
+}
+
+.contact-me li {
+    display: inline-block;
+}
+
+.resume {
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 70px;
+    margin-bottom: 20px;
+}
+
+.resume h2 {
+    width: 25%;
+    text-align: center
+}
+
+.resume img {
+    width: 75%
+}
+
+@media screen and (max-width: 992px) {
+    header
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+    header,
+    nav, {
+        justify-content: center
+    }
+   /* .content {
+    flex-wrap: column;
+   } */
+}
