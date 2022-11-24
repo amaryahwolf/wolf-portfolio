@@ -1,6 +1,6 @@
 # Amaryah Wolf's Portfolio
 
-## [Deployed Application] (https://amaryahwolf.github.io/wolf-portfolio/)
+## [Deployed Application](https://amaryahwolf.github.io/wolf-portfolio/)
 
 ## Description
 
