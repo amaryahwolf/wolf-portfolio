@@ -112,12 +112,13 @@ p {
 }
 
 .figure-large img {
-position: relative;
+width: 700px;
+height: auto;
 }
 
 .figure-large figcaption {
     padding: 10px;
-    width: 350px;
+    width: 680px;
     height: 25px;
     margin-top: -50px;
     background-color: #f0ffff52;
@@ -132,15 +133,15 @@ position: relative;
 }
 
 .figure-small img {
-    position: relative;
-    margin: 5% 5% 5% 0
+    margin: 10px;
+    
 }
 
 .figure-small figcaption {
     padding: 10px;
-    width: 350px;
+    width: 340px;
     height: 25px;
-    margin-top: -50px;
+    margin-top: -60px;
     background-color: #f0ffff52;
     position: absolute;
 }
